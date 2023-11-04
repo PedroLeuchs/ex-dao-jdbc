@@ -1,0 +1,15 @@
+
+CREATE TABLE Vendedor (
+  Id int(11) NOT NULL AUTO_INCREMENT,
+  Name varchar(60) NOT NULL,
+  Email varchar(100) NOT NULL,
+  BaseSalary double NOT NULL,
+  PRIMARY KEY (Id)
+  );
+
+INSERT INTO Vendedor (Name, Email, BaseSalary) VALUES 
+  ('Bob Brown','bob@gmail.com',1000);
+  
+  select * from Vendedor;
+  drop table vendedor;
+  
